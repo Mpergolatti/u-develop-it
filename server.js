@@ -111,7 +111,6 @@ app.post('/api/candidates', ({ body }, res) => {
       data: body
     });
   });
-
 });
 
 // Default response for any other request (NOT FOUND)
@@ -123,3 +122,4 @@ app.use((req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}.`);
 });
+
